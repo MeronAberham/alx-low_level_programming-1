@@ -1,8 +1,8 @@
 include "main.h"
 /*
- adds 2 numbers
+  add - adds two numbers together.
  */
-int add(int num1, int num2)
+int add(int i, int j)
 {
-	return (num1 + num2);
+	return (i + j);
 }
