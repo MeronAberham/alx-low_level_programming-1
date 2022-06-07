@@ -1,8 +1,9 @@
-include "main.h"
+#include "holberton.h"
 /*
-  add - adds two numbers together.
- */
-int add(int i, int j)
+add - a function that adds two integers and returns the result
+ 
+*/
+int add(int one, int two)
 {
-	return (i + j);
+	return (one + two);
 }
