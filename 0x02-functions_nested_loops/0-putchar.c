@@ -1,13 +1,14 @@
 
-/* Hello this is my comment and i would do as i please with it
-
-*/
-
 #include "main.h"
-/* This is my main method
 
-*/
-int main(void){
+/**
+ *
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -16,6 +17,6 @@ int main(void){
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (0);
 
+	return (0);
 }
