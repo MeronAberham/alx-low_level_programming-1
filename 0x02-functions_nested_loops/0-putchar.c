@@ -3,7 +3,11 @@
 
 */
 
-int main(){
+#include <main.h>
+/* This is my main method
+
+*/
+int main(void){
 	_putchar("_");
 	_putchar("p");
 	_putchar("u");
@@ -13,5 +17,6 @@ int main(){
 	_putchar("a");
 	_putchar("r");
 	_putchar("/n");
+	return (0);
 
 }
