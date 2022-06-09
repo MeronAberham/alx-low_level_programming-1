@@ -8,7 +8,7 @@
  
 int _isupper (int c) 
 {
-	if (c.isupper)
+	if (c.isupper())
 	{
 	      return(1);
 
