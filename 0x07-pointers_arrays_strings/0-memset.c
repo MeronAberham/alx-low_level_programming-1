@@ -1,6 +1,6 @@
 /*
  * File: 0-memset.c
- * 
+ * Auth: Melaku Wondwossen
  */
 
 #include "main.h"
