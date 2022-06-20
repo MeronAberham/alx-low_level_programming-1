@@ -1,21 +1,22 @@
 #include "main.h"
 
 /**
- * *_memset - fills memory with a constant byte.
- * @s: pointer to put the constant
- * @b: constant
- * @n: max bytes to use
+ * *_memset - function fills memory with constant byte
+ *
+ *@s: char * pointer
+ *@b: char constant byte
+ *@n: unsigned int of bytes
  * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int counter = 0;
 
-	for (i = 0; n > 0; i++, n--)
+	while (counter < n)
 	{
-		s[i] = b;
+		*(s + counter) = b;
+		counter++;
 	}
-
 	return (s);
 }
