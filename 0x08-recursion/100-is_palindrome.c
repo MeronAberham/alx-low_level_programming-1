@@ -6,7 +6,7 @@
  * @s1: string to compare to
  * @s2: string with wild character
  *
- * Return: On success 1.
+ * Return: On success 1. s
  * On error, -1 is returned, and errno is set appropriately.
  */
 int wildcmp(char *s1, char *s2)
