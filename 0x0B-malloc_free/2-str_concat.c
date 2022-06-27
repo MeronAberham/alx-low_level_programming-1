@@ -5,7 +5,7 @@
 /**
  * str_concat - function that concatenates two strings
  *
- * @s1: string of chars
+ * @s1: string of charss
  * @s2: string of chars
  *
  * Return: address of the newly allocated memory
