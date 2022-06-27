@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * countWords - counts the numbers o words in the string
- * @str: source string
+ * @str: source str
  *
  *
  * Return: the number of words.
